@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<title>Nerds</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	
+	<body class="shop-page">
+		<header class="main-header shop-page">
+			<nav class="main-navigation container">
+				<a class="main-header-logo" href="index.html">
+					<img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип дизайн студии">
+				</a>
+				<ul class="site-navigation">
+					<li><a href="#">Студия</a></li>
+					<li><a href="#">Клиенты</a></li>
+					<li><a class="active" href="#" >Магазин</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+				<ul class="basket-navigation">
+					<li><a href="#">Корзина</a></li>
+				</ul>
+			</nav>
+			<h1 class="main-title">Магазин готовых шаблонов</h1>
+		</header>
+	
+		<div class="wrapper container">
+			<div class="filter-block">
+				<form method="get" action="#">
+					<fieldset class="filter-item">
+						<legend class="price-legend">Стоимость:</legend>
+						<div class="range-filter">
+							<div class="range-controls">
+								<div class="scale">
+									<div class="bar"></div>
+								</div>
+							<div class="toggle toggle-min"></div>
+							<div class="toggle toggle-max"></div>
+							</div>
+							
+							<div class="price-controls">
+								<label class="min-price">от <input name="min-price" type="text" value="0"></label>
+								<label class="max-price">до <input name="max-price" type="text" value="15000"></label>
+							</div>
+						</div>
+						
+						<legend class="grid-legend">Сетка:</legend>
+							<ul class="grid-filter">
+								<li>
+									<input type="radio" id="adaptive" name="grid" checked>
+									<label for="adaptive">Адаптивная</label>
+								</li>
+								<li>
+									<input type="radio" id="fixed" name="grid">
+									<label for="fixed">Фиксированная</label>
+								</li>
+								<li>
+									<input type="radio" id="responvise" name="grid">
+									<label for="responvise">Резиновая</label>
+								</li>
+							</ul>
+							
+						<legend class="property-legend">Особенности:</legend>
+							<ul class="property-filter">
+								<li>
+									<input type="checkbox" id="slider" name="slider" checked>
+									<label for="slider">Слайдер</label>
+								</li>
+								<li>
+									<input type="checkbox" id="advantage" name="advantage">
+									<label for="advantage">Блок преимуществ</label>
+								</li>
+								<li>
+									<input type="checkbox" id="news" name="news" checked>
+									<label for="news">Новости</label>
+								</li>
+									<li>
+									<input type="checkbox" id="gallery" name="gallery">
+									<label for="gallery">Галерея</label>
+								</li>
+									<li>
+									<input type="checkbox" id="basket" name="basket">
+									<label for="basket">Корзина</label>
+								</li>
+							</ul>
+							<input type="submit" class="btn btn-form" value="Показать">
+					</fieldset>
+				</form>
+			</div>
+			<div class="content-block">
+				<div class="sort-block">
+					<span class="sort-title">Сортировать:</span>
+					<ul class="sort-item">
+						<li>
+							<a class="active-sort">По цене</a>
+						</li>
+						<li>
+							<a href="#">По типу</a>
+						</li>
+						<li>
+							<a href="#">По названию</a>
+						</li>
+					</ul>
+				</div>
+				<section class="patterns">
+					<div class="sort-result-item">
+						<img src="img/sedona-pattern.jpg" width="360" height="575" alt="Страница Седона">
+					</div>
+					<div class="sort-result-item">
+						<img src="img/pink-pattern.jpg" width="360" height="575" alt="Страница Пинк">
+					</div>
+					<div class="sort-result-item">
+						<img src="img/barbershop-pattern.jpg" width="360" height="575" alt="Страница Барбершоп">
+					</div>
+					<div class="sort-result-item">
+						<img src="img/mishka-pattern.jpg" width="360" height="575" alt="Страница Мишка">
+					</div>
+					<div class="sort-result-item">
+						<img src="img/aplus-pattern.jpg" width="360" height="575" alt="Страница Мишка">
+					</div>
+					<div class="sort-result-item">
+						<img src="img/kvast-pattern.jpg" width="360" height="575" alt="Страница Мишка">
+					</div>
+				</section>
+				<div class="paginator">
+					<a class="paginator-num active-num">1</a>
+					<a href="#" class="paginator-num">2</a>
+					<a href="#" class="paginator-num">3</a>
+					<span class="btn paginator-btn">Следующая</span>
+				</div>
+			</div>
+		</div>
+	
+		<div class="map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6029774887163!2d30.32236075322915!3d59.938729917757705!2m3!1f0!2f0!3f0
+			!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_
+			QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1536041581481"
+			width="100%" height="418" frameborder="0" style="border:0" allowfullscreen>
+			</iframe>
+		</div>
+		
+		<footer class="main-footer container">
+			<div class="main-footer__social">
+				<ul class="social-list">
+					<li class="social-item">
+						<a class="social-item-vk" href="#">ВКонтакте</a>
+					</li>
+					<li class="social-item">
+						<a class="social-item-fb" href="#">Фейсбук</a>
+					</li>
+					<li class="social-item">
+						<a class="social-item-inst" href="#">Инстаграмм</a>
+					</li>
+				</ul>
+			</div>
+					
+			<div class="main-footer__description">
+				<b class="description__main">
+					Давайте дружить, это выгодно!
+				</b>
+				<p class="description__sale">
+					Скидка 10% для друзей из социальных сетей.
+				</p>
+			</div>
+		</footer>
+	</body>
+</html>
